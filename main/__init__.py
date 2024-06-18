@@ -49,5 +49,5 @@ try:
     Bot.start()
 except Exception as e:
     #print(e)
-    logger.info(e)
+    logging.info(e)
     sys.exit(1)
